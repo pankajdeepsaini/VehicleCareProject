@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  
+	  <parameter name="mob" value="8433426682"/>
+	  <parameter name="Mobileno" value="8433426682"/>
+	  <parameter name="OTPno" value="   "/>
+	  <parameter name="carmodel" value="2020"/>
+	  
+    <classes>
+      <class name="TestCaseFile.TestCaseDataProviderTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
