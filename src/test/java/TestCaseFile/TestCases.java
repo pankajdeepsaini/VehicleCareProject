@@ -126,7 +126,7 @@ public class TestCases  extends BASECLASS{
 		Thread.sleep(20000);
 		resend.otprecieve("");
 		
-		Thread.sleep(2000);
+		Thread.sleep(10000);
 		resend.otpsubmitbutton();
   }
 	
